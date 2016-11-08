@@ -20,6 +20,7 @@ public class StackTest {
 
 	@Test
 	public void peek() {
+		assertEquals(null, stack.peek());
 		stack.push('A');
 		assertEquals('A', stack.peek());
 		stack.push("Hello");
